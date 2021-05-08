@@ -6,7 +6,7 @@ const migrate = async () => {
     while (retries) {
         const client = new Client({
             user: 'postgres',
-            host: '127.0.0.1',
+            host: 'db',
             database: 'postgres',
             password: 'postgres',
             port: 5432
