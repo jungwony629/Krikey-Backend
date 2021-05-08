@@ -47,7 +47,7 @@ LIMIT 10
 Endpoint: /top10?author_name=
 </pre>
 
-###[Conditions]
+### [Conditions]
 <pre>
 <code>
 If a client doesn't give a valid name or a matched author name   
@@ -58,7 +58,7 @@ If the system is not working well
 </code>
 </pre>
 
-###[Results]
+### [Results]
 <pre>
 <code>
 # URL: /top10?author_name=Lorelai Gilmore
@@ -127,11 +127,11 @@ var cache = (duration) => {
 </code>
 </pre>
 
-###[Results]   
+### [Results]   
 ![plot](./img/non-cache.JPG)
 ![plot](./img/cache.JPG)
 
-##Part 3: Build Docker Container and steps to deploy
+## Part 3: Build Docker Container and steps to deploy
 
 <pre>
 Before deploying Node web application, we need to create "Dockerfile" and "docker-compose.yml".
