@@ -11,6 +11,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
+app.disable('etag');
 
 var cache = (duration) => {
     return (req, res, next) => {
@@ -78,5 +79,5 @@ app.get('/top10', cache(10), (req, res) => {
 });
 
 app.listen(8080, () => {
-    console.log("Listening 3000 port")
+    console.log("Listening 8080 port")
 })
