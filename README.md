@@ -3,7 +3,7 @@
 Language: Node.js   
 Database: PostgreSQL   
 IDE: WebStorm   
-Deply: Docker + GCP Kubernetes
+Deply: Git + Docker + GCP Kubernetes
 </pre>
 ## Part 1: SQL Challenge
 ### 1. Who are the first 10 authors ordered by date_of_birth?
@@ -145,5 +145,5 @@ Therefore, we only need to run "docker-compose.yml" after creating a new Docker 
 #2 "docker-compose.yml" command:
 <strong>docker-compose up -d</strong>
 
-For more details about deploying, please check <strong>GCP-Kubernetes.pdf</strong>
+For more details about deploying, please check <strong>GCP-Kubernetes-Deploy.pdf</strong>
 </pre>
